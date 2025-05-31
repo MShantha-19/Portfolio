@@ -1,0 +1,117 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
+  background: url('https://images.unsplash.com/photo-1603791440384-56cd371ee9a7') center/cover fixed no-repeat;
+  color: #111;
+}
+.hero {
+  background: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+.hero p {
+  font-size: 1.2rem;
+}
+nav {
+  
+  background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 1000px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+nav ul { list-style: none; }
+nav li { display: inline; margin: 0 15px; }
+nav a {
+  color: #67adf9;
+  text-decoration: none;
+  font-weight: bold;
+}
+section {
+  background: 
+  linear-gradient(rgba(250, 241, 241, 0.9), rgba(255, 255, 255, 0.9)),
+  url('https://unsplash.com/photos/turned-off-macbook-pro-beside-white-ceramic-mug-filled-with-coffee-aOC7TSLb1o8');
+background-size: cover;
+background-position: center;
+ 
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 30px;
+  max-width: 1000px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+  #projects {
+    background: 
+      linear-gradient(rgba(255, 255, 255, 0.94), rgba(255, 255, 255, 0.94)),
+      url('https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 30px;
+    max-width: 1000px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+.project {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: rgba(235, 246, 246, 0.95);
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.skills-list li {
+  background-color: #007BFF;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  list-style: none;
+}
+.btn-resume {
+  display: inline-block;
+  background-color: #007BFF;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+}
+.btn-resume:hover {
+  background-color: #0056b3;
+}
+footer {
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+    url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d') center/cover no-repeat;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 1000px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
